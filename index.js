@@ -1,5 +1,5 @@
-const cars = ["Saab", "Volvo", "BMW"];
-cars[0] = "Toyota";
-cars.push("Audi");
-
-document.getElementById("demo").innerHTML = cars;
+let hello = "";
+hello = () => {
+  return "Hello World";
+}
+document.getElementById('demo').innerHTML = hello();
